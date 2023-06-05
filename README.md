@@ -3,9 +3,9 @@
 
 Visite meu repositório no GitHub
 
-<a href="https://github.com/Joelice">
+<a href="https://github.com/Joelice">,</a>
 
  Visite meu primeiro projeto desafio do curso de HTML5 e CSS3
  
- <a href="https://joelice.github.io/html-css/desafios/desafio10/index.html">
+ <a href="https://joelice.github.io/html-css/desafios/desafio10/index.html"></a>
 
