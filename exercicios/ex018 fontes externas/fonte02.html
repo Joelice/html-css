@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family:'Royal';
+            src: url('fontes/RoyalWedding-Regular.otf') format('opentype'), url('fontes/RoyalWedding-Regular.ttf') format('truetype');
+            /*importante colocar o format opentype para otf e truetype para ttf, pois é o format q vai fazer funcionar no navegador.*/
+            font-weight: normal;
+            font-style: normal;
+            font-size: 1em;
+        }
+       @font-face {
+        font-family: 'Romantic';
+        src: url('fontes/Romantic\ Fantasy.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-size: 2em;
+       }
+        
+        body{
+           
+            font-family: 'Royal';
+            font-size: 3em;
+            text-align: justify;
+            
+            
+        }
+        h1{
+            font-family: 'Romantic';
+            font-size: 1em;
+            font-weight: normal;
+        }
+        h2{
+            font-family: 'Romantic'; 
+            font-size: 0.5em;           
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+            <p>Podemos também misturar as fontes do google fontes com as fontes externas. Basta usar o @font-face com o endereço do arquivo da fonte externa.  </p>
+            <hr>
+   <h2>Subtítulo</h2>
+   <p style="font-family: Romantic; font-size: 0.25em; font-weight: normal; text-align: justify;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati corrupti vel aliquam? Fuga quaerat asperiores beatae repellendus, sit, deserunt excepturi voluptatibus veniam soluta laborum, laboriosam culpa ipsam illo ab.
+
+   </p>
+</body>
+</html>
