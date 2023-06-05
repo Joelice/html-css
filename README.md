@@ -7,5 +7,5 @@ Visite meu repositório no GitHub
 
  Visite meu primeiro projeto desafio do curso de HTML5 e CSS3
  
- <a href="https://joelice.github.io/html-css/desafios/desafio10/index.html">CLICANDO AQUI</a>
+ <a href="https://joelice.github.io/html-css/desafios/desafio10ac/index.html">CLICANDO AQUI</a>
 
